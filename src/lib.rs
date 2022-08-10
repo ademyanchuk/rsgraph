@@ -1,5 +1,7 @@
 // Graph related algorithms
 
+pub mod dijkstra;
+
 use std::collections::HashMap;
 
 pub fn dfs_visit(i: i32, adj_list: &Vec<Vec<i32>>, visited: &mut Vec<i32>, result: &mut Vec<i32>) {
